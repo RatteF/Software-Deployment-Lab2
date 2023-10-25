@@ -8,12 +8,7 @@ trigger:
   inputs:
     versionSource: 'spec'
     versionSpec: '6.x'
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
-- main
+
 
 pool:
   vmImage: ubuntu-latest
