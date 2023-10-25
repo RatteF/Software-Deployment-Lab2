@@ -11,7 +11,7 @@ pool:
 steps:
 - task: UseNode@1
   inputs:
-    version: '6.x'
+    version: 20.9.0
 
 - script: |
     npm install
