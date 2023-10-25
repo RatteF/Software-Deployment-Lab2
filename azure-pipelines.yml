@@ -10,10 +10,13 @@ steps:
     version: '20.9.0'
 
 - script: |
-    npm init -y
+    npm install mocha
     npm install express
-    npm test
-  displayName: 'Install and test'
+  displayName: 'Install dependencies'
+
+- script: |
+    mocha
+  displayName: 'Run Mocha tests'
 
 - script: |
     node node.js
