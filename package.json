@@ -16,6 +16,7 @@
   "author": "Florian Grasnick",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "chai": "^4.3.4"
   }
 }
