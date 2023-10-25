@@ -1,0 +1,21 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Node.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RatteF/Software-Deployment-Lab2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Florian Grasnick",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0" 
+  }
+}
