@@ -10,6 +10,9 @@ app.listen(port, () => {
   console.log(`Die Anwendung ist auf Port ${port} gestartet.`);
 });
 
-function getResponse() {
-  return 'Hallo, wenn diese Nachricht kommt, hat der Test funktioniert.';
-}
+// Funktion exportieren
+module.exports = {
+  getResponse: () => {
+    return 'Hallo Welt.';
+  }
+};
