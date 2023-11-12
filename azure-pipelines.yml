@@ -4,25 +4,28 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: UseNode@1
-  inputs:
-    version: '20.9.0'
-
-- script: |
-    npm init -y
-    npm install express
-    npm install mocha --save-dev
-    npm test
-  displayName: 'Install and test'
+jobs:
+- job: RunNodeApp
   timeoutInMinutes: 120  # Hier kannst du die Zeit in Minuten anpassen
 
-- script: |
-    node node.js
-  displayName: 'Run Node.js application'
+  steps:
+  - task: UseNode@1
+    inputs:
+      version: '20.9.0'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/artifacts'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+  - script: |
+      npm init -y
+      npm install express
+      npm install mocha --save-dev
+      npm test
+    displayName: 'Install and test'
+
+  - script: |
+      node node.js
+    displayName: 'Run Node.js application'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)/artifacts'
+      ArtifactName: 'drop'
+      publishLocation: 'Container'
