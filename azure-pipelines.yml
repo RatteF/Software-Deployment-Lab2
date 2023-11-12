@@ -12,9 +12,10 @@ steps:
 - script: |
     npm init -y
     npm install express
-    npm install mocha --save-dev # Installieren von Mocha als Entwicklungspaket
+    npm install mocha --save-dev
     npm test
   displayName: 'Install and test'
+  timeoutInMinutes: 120  # Hier kannst du die Zeit in Minuten anpassen
 
 - script: |
     node node.js
