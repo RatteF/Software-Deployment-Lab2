@@ -1,0 +1,31 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: RunNodeApp
+  timeoutInMinutes: 180  # Erhöhe das Zeitlimit auf 180 Minuten oder mehr
+
+  steps:
+  - task: UseNode@1
+    inputs:
+      version: '20.9.0'
+
+  - script: |
+      npm init -y
+      npm install express
+      npm install mocha --save-dev
+      npm test
+    displayName: 'Install and test'
+
+  - script: |
+      node node.js
+    displayName: 'Run Node.js application'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)/artifacts'
+      ArtifactName: 'drop_$(Build.BuildId)'
+      publishLocation: 'Container'
