@@ -6,7 +6,7 @@ pool:
 
 jobs:
 - job: RunNodeApp
-  timeoutInMinutes: 120
+  timeoutInMinutes: 180  # Erhöhe das Zeitlimit auf 180 Minuten oder mehr
 
   steps:
   - task: UseNode@1
@@ -19,7 +19,6 @@ jobs:
       npm install mocha --save-dev
       npm test
     displayName: 'Install and test'
-    continueOnError: true  # Fortsetzen, selbst wenn der Test fehlschlägt
 
   - script: |
       node node.js
