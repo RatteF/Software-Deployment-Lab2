@@ -1,0 +1,23 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: Deploy
+  displayName: 'Deploy to Azure Web App'
+  steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '3.x'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - task: AzureRmWebAppDeployment@4
+    inputs:
+      ConnectionType: 'AzureRM'
+      azureSubscription: 'RatteF'
+      appType: 'webAppLinux'
+      WebAppName: 'Lab2Pipelines'
+      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
