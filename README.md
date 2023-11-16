@@ -77,3 +77,7 @@ Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wied
 Hier ist einmal ein Ausschnitt während des "Running" Status
 ![WartezeitRunning2](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/0c7ab984-2f93-4047-b7c7-0e1af2afb09b)
 
+
+Hier einmal die Standarddomäne meiner WebApp: lab2pipelines.azurewebsites.net
+Und einmal ein Screenshoot dieser:
+![WebApp](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/e369d547-dfbb-46a3-af06-21143a481e18)
