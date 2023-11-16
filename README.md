@@ -13,6 +13,7 @@ Anschließend ist mir aufgefallen, dass die Pipeline bei fast jedem Test sehr la
 
 Daraufhin habe ich den Timestamp manuell erhöht auf 180 Minuten.
 Jedoch ist daraufhin der Prozess nach ca. 1,5 Stunden (der "Running" Prozess) abgebrochen.
+![WartezeitRunning](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/e4082929-4665-4bed-b280-e5a907fadfe1)
 
 Dieses Problem hatte ich mehrere Wochen. Die folgende Fehlermeldung wurde mir ausgegeben:
 
@@ -72,5 +73,6 @@ Ich habe folgendes versucht:
 
 Der aktuelle AgentPool ![AgentPool_ _Agent](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/c6312b35-ded8-4409-b374-1b5de56190df)
 
-Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wieder die sehr langen Zeiten in den Status "Queued" und "Running".
-![WartezeitRunning](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/157ffe3f-d6e4-460e-8b5d-66cf27525706)
+Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wieder die sehr langen Zeiten in den Status "Queued" und "Running". Ich konnte ab diesen Punkt aus zeitlichen Gründen nicht weiterarbeiten. Die Wartezeit wurde jedoch schlimmer.
+![SelfHostedWartezeit](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/6746f02c-e7c7-4177-86e5-61d65dc6ecc3)
+
