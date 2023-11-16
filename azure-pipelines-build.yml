@@ -2,12 +2,13 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Lab2_Self-Hosted 
 
 jobs:
 - job: RunNodeApp
   timeoutInMinutes: 180 
-
+  pool:
+    name: Lab2_Self-Hosted
   steps:
   - task: UseNode@1
     inputs:
