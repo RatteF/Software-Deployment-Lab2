@@ -2,11 +2,13 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Lab2_Self-Hosted
 
 jobs:
 - job: Deploy
   displayName: 'Deploy to Azure Web App'
+  pool:
+    name: Lab2_Self-Hosted 
   steps:
   - task: UseDotNet@2
     inputs:
