@@ -73,5 +73,7 @@ Ich habe folgendes versucht:
 Der aktuelle AgentPool ![AgentPool_ _Agent](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/c6312b35-ded8-4409-b374-1b5de56190df)
 
 Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wieder die sehr langen Zeiten in den Status "Queued" und "Running". Ich konnte ab diesen Punkt aus zeitlichen Gründen nicht weiterarbeiten. Die Wartezeit wurde jedoch schlimmer.
-![SelfHostedWartezeit](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/6746f02c-e7c7-4177-86e5-61d65dc6ecc3)
+
+Hier ist einmal ein Ausschnitt während des "Running" Status
+![WartezeitRunning2](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/0c7ab984-2f93-4047-b7c7-0e1af2afb09b)
 
