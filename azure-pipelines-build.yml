@@ -6,7 +6,7 @@ pool:
 
 jobs:
 - job: RunNodeApp
-  timeoutInMinutes: 180  # Erhöhe das Zeitlimit auf 180 Minuten oder mehr
+  timeoutInMinutes: 180 
 
   steps:
   - task: UseNode@1
