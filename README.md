@@ -66,7 +66,7 @@ Ich habe dabei mehrere Lösungsansetze probiert.
 Ich habe folgendes versucht:
 
 - mehrmals versucht Code anzupassen
-- auf Notebook Ressoucen geachten (CPU, Arbeitsspeicher, Netzwerkverbindung)
+- auf Notebook Ressoucen geachtet (CPU, Arbeitsspeicher, Netzwerkverbindung)
 - die Firewall deaktiviert
 - neuen Agenten erstellt
 
