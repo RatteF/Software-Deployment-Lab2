@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'Lab2_Self-Hosted'
+  vmImage: 'ubuntu-latest'
 
 jobs:
 - job: Deploy
