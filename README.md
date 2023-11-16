@@ -79,5 +79,6 @@ Hier ist einmal ein Ausschnitt während des "Running" Status
 
 
 Hier einmal die Standarddomäne meiner WebApp: lab2pipelines.azurewebsites.net
+
 Und einmal ein Screenshoot dieser:
 ![WebApp](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/e369d547-dfbb-46a3-af06-21143a481e18)
