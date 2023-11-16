@@ -72,4 +72,4 @@ Ich habe folgendes versucht:
 
 Der aktuelle AgentPool ![AgentPool_ _Agent](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/c6312b35-ded8-4409-b374-1b5de56190df)
 
-Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wieder die sehr langen Zeiten in den Status "Queued" und "RunninG".
+Den letzten Punkt habe ich erst am 16.11. probiert und auch dabei hatte ich wieder die sehr langen Zeiten in den Status "Queued" und "Running".
