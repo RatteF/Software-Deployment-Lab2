@@ -13,7 +13,6 @@ Anschließend ist mir aufgefallen, dass die Pipeline bei fast jedem Test sehr la
 
 Daraufhin habe ich den Timestamp manuell erhöht auf 180 Minuten.
 Jedoch ist daraufhin der Prozess nach ca. 1,5 Stunden (der "Running" Prozess) abgebrochen.
-![WartezeitRunning](https://github.com/RatteF/Software-Deployment-Lab2/assets/83348757/e4082929-4665-4bed-b280-e5a907fadfe1)
 
 Dieses Problem hatte ich mehrere Wochen. Die folgende Fehlermeldung wurde mir ausgegeben:
 
