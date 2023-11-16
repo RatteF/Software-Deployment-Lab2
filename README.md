@@ -1,6 +1,6 @@
 # Software-Deployment-Lab2
 
-Ich hatte große Probleme mit der Aufgabe, sodass ich diese nicht erfolgreich erledigen konnte. Im folgenden möchte ich zumindest meine Probleme aufzeigen.
+Ich hatte große Probleme mit der Aufgabe, sodass ich diese nicht erfolgreich erledigen konnte. Im folgenden möchte ich zumindest meine Probleme aufzeigen. Meine Dateien liegen in diesem Git-Ordner vor.
 
 Nachdem ich alle Dateien soweit fertig hatte, DevOps mit Github verbunden hatte und die Build Pipeline aufgesetzt habe, bin ich immer wieder auf verschiedene Error-Meldungen bezüglich der Pipeline gestoßen.
 Zunächst gab es ein leicht zu lösendes Problem bezüglich ```No hosted parallelism```. Das war aber schnell gelöst.
